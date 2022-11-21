@@ -1,0 +1,68 @@
+.content {
+    text-align: center;
+    height: 400px;
+    background: grey;
+    background-image: url(image/background.jpeg);
+}
+
+.content h1, h3 {
+    padding: 30px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.content h1 {
+    margin: 10px;
+    font-size: 100px;
+}
+
+.content a {
+    margin: 30px;
+}
+
+
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+
+.mainphoto {
+    margin: 10px;
+}
+
+#title {
+    color: white;
+}
+.product2{
+    float: left;
+}
+.product2 h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.openinghours {
+    text-align: center;
+}
+
+
+.container .deskripsi{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    margin-top: 50px;
+    color: black;
+    margin-left: 40%;
+    color:#145369;
+}
+
+.content-layanan{
+    display: flex;
+}
+
+.content-1 img{
+    width: 100%;
+    margin:5px;
+}
+
+

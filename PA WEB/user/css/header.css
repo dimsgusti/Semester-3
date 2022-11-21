@@ -1,0 +1,167 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+body.dark {
+    background-color: gray;
+    color: white;
+}
+
+/* darkmode */
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-label {
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: #111;
+    width: 50px;
+    height: 18px;
+    border-radius: 50px;
+    position: relative;
+    padding-top: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-moon {
+    color: #f1c40f;
+}
+
+.fa-sun {
+    color: #f39c12;
+}
+
+.checkbox-label .ball {
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+    transform: translateX(24px);
+}
+
+.navbar {
+    display: flex;
+    overflow: auto;
+    height: 80px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.navbar_left img {
+    width: 120%;
+    height: 93%;
+}
+
+.navbar li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar_left {
+    display: flex;
+}
+
+.navbar_right {
+    display: flex;
+    padding: 10px;
+}
+
+.navbar_right a{
+    padding: 19px;
+    size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_right a.active{
+    padding: 19px;
+    color: white;
+    background-color:darksalmon;
+}
+
+
+
+.about {
+    height: 650px;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia a {
+    padding: 10px;
+}
+
+.book {
+    height: 650px;
+}
+
+.book {
+    text-align: center;
+}
+
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    display : black;
+    visibility: hidden;
+}
+input[type="checkbox"]:cheked ~ .check:before:cheked ~ .check:before {
+    transform: translateX(-50px);
+}
+
+input[type="checkbox"]:cheked ~ .check {
+    background-color: white;
+    box-shadow: black;
+}
+
+.check:before,
+.check:after{
+    border-radius:50%;
+    content:'';
+    height: 13px;
+    position: absolute;
+    top : 3px;
+    transition: transform 0.5s ease;
+    width : 13px;
+}
+
+.check:before{
+    background-color: white;
+    left: 5px;
+}
+
+.check{
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: backgroun-color 0.5 ease-in,
+    box-shadow 0.5s ease-in;
+    width: 40px;
+}
+
+
