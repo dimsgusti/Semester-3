@@ -1,0 +1,30 @@
+.navbar {
+    background-color:white;
+}
+.navbar-logo img{
+    width: 8%;
+    margin-left: 15px;
+}
+
+
+.table-data{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 14px;
+    padding: 10px;
+    background-color:darkslategray;
+    position: sticky;
+}
+.table-data a{
+    color:white;
+    text-decoration: none;
+    padding-top: 5px;
+    margin-left: 15px;
+    font-size: 120%;
+    position: relative;
+}
+
+.table-data a:hover{
+    color:cornflowerblue;
+}
+
